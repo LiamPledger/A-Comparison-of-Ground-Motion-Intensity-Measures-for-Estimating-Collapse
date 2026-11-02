@@ -1,12 +1,14 @@
-# PGV and Other Ground Motion Intensity Measures in Relation to Building Drift and Collapse
+# A Comparison of Ground Motion Intensity Measures for Estimating Collapse
 
 ## Overview
 
-This repository contains all data, Python scripts, ground motion records, and building models used in the study "_PGV and other ground motion intensity measures in relation to building drift and collapse_". 
+This repository contains all data, Python scripts, ground motion records, and building models used in the study 
+
+Pledger, L., Sistla, S., Pujol, S., & Chandramohan, R. (2026). A Comparison of Ground Motion Intensity Measures for Estimating Collapse. Earthquake Spectra, 42(2), e70063. https://doi.org/10.1002/esp4.70063. 
 ## Contents
 
 
-- **Ground Motions and IMs**: .txt files of the 100 ground motion time-history records used for NLTHA. Also includes python scripts and excel files used to compute the various intensity measures.
+- **Ground Motions and IMs**: .txt files of the 100 ground motion time-history records used for NLTHA. Also includes python scripts and excel files used to compute the various intensity measures. Ground motions were selected by Sistla, S and can be found in his thesis "_Risk-targeted seismic design of buckling-restrained braced frame buildings._"
 - **Building Models**: Python scripts of the numerical models used in the study. Includes the code to conduct IDA, as well as all of the models and information about each building (i.e. section sizes, reinforecment ratios...)
 - **IDA Results**: Data used to develop IDA curves are provided here. Excel files for each model (max_drift.xlsx) include peak storey drift recorded for each increment of spectral acceleration used in IDA for all 100 ground motions. 
 - **SaRatio and Ds plots**: Python scripts and relevant GM data to reproduce Figure 5 and 6.
